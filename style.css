@@ -1,36 +1,33 @@
 body {
     font-family: Arial, sans-serif;
-    /* background-image: url('public/background\ image.jpg') ;
-    background-size: contain;
-    background-repeat: no-repeat; 
-    background-position: center center;  */
     margin: 0;
     padding: 2em;
-    background-color: rgba(144, 235, 25, 0.5); /* Red color with 50% opacity */
-
-
+    background-color: rgba(144, 235, 25, 0.5);
 }
-.logo-container {
-    text-align: center; /* Center the logo */
-    margin-bottom: 20px; /* Add space below the logo */
-  }
-  
-  .pizza-logo {
-    width: 150px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
 
-.username{
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pizza-logo {
+    width: 150px;
+    height: auto;
+}
+
+.username {
     text-align: center;
     font-weight: bold;
+    background-color: #ee2525;
 }
+
 .cartCode {
     text-align: center;
     margin-top: 2em;
     padding-right: 5em;
     font-weight: bold;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -45,7 +42,6 @@ h5 {
 
 .cart,
 .pizzas {
-    /* background: #ec4e98; */
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
@@ -113,35 +109,32 @@ h5 {
 @media only screen and (max-width: 760px) {
     body {
         background-color: rgb(33, 230, 213);
-        padding: 1em; /* Adjust padding for smaller screens */
+        padding: 1em;
     }
 
     .container {
-        padding: 0 1em; /* Add padding to container */
+        padding: 0 1em;
     }
 
     .cart,
     .pizzas {
-        padding: 1px; /* Adjust padding for smaller screens */
-        margin: 10px 0; /* Reduce margin */
+        padding: 1px;
+        margin: 10px 0;
         width: 100%;
     }
 
     .cart table {
         background-color: rgb(100, 224, 51);
-        /* margin: 1em; */
-        /* margin-right: 50px; */
-        /* width: 50%; */
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 14px;
     }
 
     .cart th,
     .cart td {
-        padding: 6px; /* Reduce padding for table cells */
+        padding: 6px;
     }
 
     .pizza {
-        width: 100%; /* Make pizzas full width on smaller screens */
-        margin: 0.5em 0; /* Adjust margins for vertical spacing */
+        width: 100%;
+        margin: 0.5em 0;
     }
 }
