@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 2em;
-    background-color: rgba(144, 235, 25, 0.5);
+    background-color: #f70f7b; /* Light grey for a clean look */
 }
 
 .logo-container {
@@ -18,7 +18,10 @@ body {
 .username {
     text-align: center;
     font-weight: bold;
-    background-color: #ee2525;
+    background-color: #ff6f61; /* Warm coral for contrast */
+    color: #fff; /* White text for readability */
+    padding: 0.5em; /* Add some padding */
+    border-radius: 5px; /* Slightly rounded corners */
 }
 
 .cartCode {
@@ -45,7 +48,8 @@ h5 {
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    background-color: #1cdf67; /* White background for cards */
 }
 
 .cart table {
@@ -56,25 +60,26 @@ h5 {
 
 .cart th,
 .cart td {
-    border: 2px solid #0a0a0a;
+    border: 2px solid #dddddd; /* Light grey border */
     padding: 8px;
     text-align: center;
 }
 
 .cart th {
-    background-color: #1ee70c;
+    background-color: #7f4cdd; /* Fresh green for header */
+    color: white; /* White text for readability */
 }
 
 .cart .message {
     margin-bottom: 10px;
-    color: #010f0f;
+    color: #333; /* Dark text for visibility */
     font-weight: bold;
     font-family: Lucida Console;
 }
 
 .btn {
-    background-color: #751aec;
-    color: rgb(255, 255, 255);
+    background-color: #8319e6; /* Green button for positive actions */
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -83,19 +88,19 @@ h5 {
 }
 
 .btn:hover {
-    background-color: #c92492;
+    background-color: #218838; /* Darker green on hover */
 }
 
 .pizza {
     padding: 2em;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 1em;
     margin-bottom: 10px;
     text-align: center;
     display: inline-block;
     margin: 0.5em;
     padding: 1.5em;
     width: 15em;
+    background-color: #28e27c; /* Bright yellow for pizzazz */
 }
 
 .pizza h5 {
@@ -108,7 +113,7 @@ h5 {
 
 @media only screen and (max-width: 760px) {
     body {
-        background-color: rgb(33, 230, 213);
+        background-color: #e3f2fd; /* Light blue for mobile */
         padding: 1em;
     }
 
@@ -124,7 +129,7 @@ h5 {
     }
 
     .cart table {
-        background-color: rgb(100, 224, 51);
+        background-color: #f0f0f0; /* Light grey for table background */
         font-size: 14px;
     }
 
