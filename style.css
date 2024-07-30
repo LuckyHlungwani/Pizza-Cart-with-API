@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url('public/background\ image.jpg') ;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center center;  */
+    margin: 0;
+    padding: 2em;
+    background-color: rgba(144, 235, 25, 0.5); /* Red color with 50% opacity */
+
+
+}
+.logo-container {
+    text-align: center; /* Center the logo */
+    margin-bottom: 20px; /* Add space below the logo */
+  }
+  
+  .pizza-logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+
+.username{
+    text-align: center;
+    font-weight: bold;
+}
+.cartCode {
+    text-align: center;
+    margin-top: 2em;
+    padding-right: 5em;
+    font-weight: bold;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h5 {
+    color: #333;
+    text-align: center;
+}
+
+.cart,
+.pizzas {
+    /* background: #ec4e98; */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 3em;
+}
+
+.cart th,
+.cart td {
+    border: 2px solid #0a0a0a;
+    padding: 8px;
+    text-align: center;
+}
+
+.cart th {
+    background-color: #1ee70c;
+}
+
+.cart .message {
+    margin-bottom: 10px;
+    color: #010f0f;
+    font-weight: bold;
+    font-family: Lucida Console;
+}
+
+.btn {
+    background-color: #751aec;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #c92492;
+}
+
+.pizza {
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 0.5em;
+    padding: 1.5em;
+    width: 15em;
+}
+
+.pizza h5 {
+    margin: 0;
+}
+
+.pizzas h2 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 760px) {
+    body {
+        background-color: rgb(33, 230, 213);
+        padding: 1em; /* Adjust padding for smaller screens */
+    }
+
+    .container {
+        padding: 0 1em; /* Add padding to container */
+    }
+
+    .cart,
+    .pizzas {
+        padding: 1px; /* Adjust padding for smaller screens */
+        margin: 10px 0; /* Reduce margin */
+        width: 100%;
+    }
+
+    .cart table {
+        background-color: rgb(100, 224, 51);
+        /* margin: 1em; */
+        /* margin-right: 50px; */
+        /* width: 50%; */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .cart th,
+    .cart td {
+        padding: 6px; /* Reduce padding for table cells */
+    }
+
+    .pizza {
+        width: 100%; /* Make pizzas full width on smaller screens */
+        margin: 0.5em 0; /* Adjust margins for vertical spacing */
+    }
+}
